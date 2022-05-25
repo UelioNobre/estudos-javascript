@@ -4,7 +4,7 @@
 
 No Javascript há algumas maneiras de criar objetos. Mas algumas delas não herda a propriedade **\_\_proto\_\_**;
 
-Há vários modos de criar objetos em javascript. Pode usar funções objetos e métodos que criam objetos. Alguns pode usar a mesma estratégia de criação (_Object.assing_).
+Há vários modos de criar objetos em javascript. Pode usar funções objetos e métodos que criam objetos. Alguns pode usar a mesma estratégia de criação (_Object.assign_).
 
 Primeiro executo todas as classes, afim de obter as seguintes informações:
 
