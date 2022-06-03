@@ -1,8 +1,8 @@
-## Curiosidades e sobre a linguagem javascript.
+## Curiosidades e sobre a linguagem Javascript.
 
 ### Criacao de objetos
 
-Neste repositório você vai encontrar algumas observações feitas enquanto estudo javascript.
+Neste repositório você vai encontrar algumas observações feitas enquanto estudo Javascript.
 
 Novidades da versão 1.0.0
 
@@ -14,7 +14,7 @@ Novidades da versão 1.0.0
 
 - [Manipulando Strings com slice, charAt, toUpperCase e toLowerCase.](https://github.com/UelioNobre/estudos-javascript/tree/main/SliceChartAtToLowerCaseToUppercase)
 
-  Navegando entre as letras com javascript e alterando-as.
+  Navegando entre as letras com Javascript e alterando-as.
 
   ***
 
