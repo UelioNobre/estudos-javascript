@@ -1,4 +1,4 @@
-## Curiosidades e sobre a linguagem javascript.
+## Curiosidades e sobre a linguagem.
 
 ### Criacao de objetos
 
