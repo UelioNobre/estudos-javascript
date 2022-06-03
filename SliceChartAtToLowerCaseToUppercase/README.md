@@ -1,6 +1,6 @@
-# Manipulando Strings
+# Manipulando Strings com slice, charAt, toUpperCase e toLowerCase
 
-Navegando entre as letras e alterando-as.
+Navegando entre as letras com javascript e alterando-as.
 
 Funções Javascript.
 

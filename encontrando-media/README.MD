@@ -1,4 +1,4 @@
-# Encontrando a média de A, B e C.
+# Encontrando a média de idade entre alguns participantes.
 
 Script simples para descobrir a idade de C, baseada na média de A, B e C.
 

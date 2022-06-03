@@ -2,74 +2,18 @@
 
 ### Criacao de objetos
 
-No Javascript há algumas maneiras de criar objetos. Mas algumas delas não herda a propriedade **\_\_proto\_\_**;
+Neste repositório você vai encontrar algumas observações feitas enquanto estudo javascript.
 
-Há vários modos de criar objetos em javascript. Pode usar funções objetos e métodos que criam objetos. Alguns pode usar a mesma estratégia de criação (_Object.assign_).
+- [Criação de objetos com Javascript.](https://github.com/UelioNobre/estudos-javascript/tree/main/2022/05/24)
 
-Primeiro executo todas as classes, afim de obter as seguintes informações:
+  No Javascript há algumas maneiras de criar objetos. Mas algumas delas não herda a propriedade **\_\_proto\_\_**.
 
-- Obtenho o tipo do objeto.
-- As propriedades **proto**
-- Imprimo o ressultado.
+  ***
 
-```js
-pessoasObjects = [];
-pessoasTypes = [
-  "Class",
-  "Object",
-  "Function",
-  "FunctionArrow",
-  "FunctionNamed",
-  "ObjectAssign",
-  "ObjectCreate",
-  "Wrong Object",
-];
+- [Manipulando Strings com slice, charAt, toUpperCase e toLowerCase.](https://github.com/UelioNobre/estudos-javascript/tree/main/SliceChartAtToLowerCaseToUppercase)
 
-pessoasResults = [];
-pessoasTypes.forEach((typeClient) => {
-  let pessoa = new BuilderPessoas(typeClient).create();
+  Navegando entre as letras com javascript e alterando-as.
 
-  if (pessoa !== undefined) {
-    let responseType = typeof pessoa;
-    let responseProto = pessoa.__proto__;
-    let result = { pessoa, typeClient, responseType, responseProto };
+  ***
 
-    pessoa.foo = typeClient;
-    pessoasResults.push(result);
-  } else {
-    console.log(
-      "Não foi possível criar o objeto: '%s'",
-      typeClient.toUpperCase()
-    );
-  }
-});
-
-console.table(pessoasResults);
-console.log("\n\n");
-```
-
-Executando partir do Nodejs:
-
-```bash
-$ node 2022/05/24/01-como-criar-objeto.js
-```
-
-Os resultados foram
-
-```js
-### --- Nenhum objeto Encontrado Wrong Object
-Não foi possível criar o objeto: 'WRONG OBJECT'
-┌─────────┬──────────────────────────────────────────────────────────┬─────────────────┬──────────────┬─────────────────────────────┐
-│ (index) │                          pessoa                          │      type       │ responseType │        responseProto        │
-├─────────┼──────────────────────────────────────────────────────────┼─────────────────┼──────────────┼─────────────────────────────┤
-│    0    │               PessoaClass { foo: 'Class' }               │     'Class'     │   'object'   │             {}              │
-│    1    │                    { foo: 'Object' }                     │    'Object'     │   'object'   │ [Object: null prototype] {} │
-│    2    │            PessoaFunction { foo: 'Function' }            │   'Function'    │   'object'   │             {}              │
-│    3    │                 { foo: 'FunctionArrow' }                 │ 'FunctionArrow' │   'object'   │ [Object: null prototype] {} │
-│    4    │ [Function: PessoaFunctionNamed] { foo: 'FunctionNamed' } │ 'FunctionNamed' │  'function'  │             {}              │
-│    5    │                 { foo: 'ObjectAssign' }                  │ 'ObjectAssign'  │   'object'   │ [Object: null prototype] {} │
-│    6    │                 { foo: 'ObjectCreate' }                  │ 'ObjectCreate'  │   'object'   │             {}              │
-└─────────┴──────────────────────────────────────────────────────────┴─────────────────┴──────────────┴─────────────────────────────┘
-
-
-```
+- [Encontrando a média de idade entre alguns participantes](https://github.com/UelioNobre/estudos-javascript/tree/main/encontrando-media)
